@@ -2,6 +2,26 @@
   height: 3px;
   border-radius: 6px;
   background-color: white;
+  -webkit-transition-property: height;
+  -moz-transition-property: height;
+  -ms-transition-property: height;
+  -o-transition-property: height;
+  transition-property: height;
+
+  -webkit-transition-duration: .2s;
+  -moz-transition-duration: .2s;
+  -ms-transition-duration: .2s;
+  -o-transition-duration: .2s;
+  transition-duration: .2s;
+
+}
+
+#proSearch {
+
+ &:focus #proSearchWhite {
+   height: 6px;
+   background-color: $peGreen;
+ }
 
 }
 
