@@ -1,0 +1,30 @@
+#proSearchWhite {
+  height: 3px;
+  border-radius: 6px;
+  background-color: white;
+
+}
+
+.navButton {
+  border: none;
+  height: 54px;
+  padding: 0 4em;
+  color: white;
+  background-color: rgba(0,0,0,0);
+
+  &:last-child {
+    margin-left: -4px;
+  }
+}
+
+.greenbtn {
+  background-color: $peGreen;
+}
+
+.button {
+  padding: 1em;
+  font-size: 18px;
+  border: none;
+  border-bottom: 3px solid;
+  border-radius: 4px;
+}

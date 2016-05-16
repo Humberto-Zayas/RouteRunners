@@ -1,0 +1,80 @@
+//CSS Layout Styles
+
+.mainWrapper {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 2em;
+}
+
+//Navigation Styles
+
+nav, #navbar {
+//  padding: .6em;
+  height: 54px;
+  background-color: $peSlate;
+}
+
+nav h1 {
+  text-indent: -9999px;
+  background: url('imgs/peLogo.png') no-repeat;
+  background-size: 97px 55px;
+  display: inline-block;
+  font-size: 2em;
+  width: 97px;
+  height: 54px;
+  margin: 0;
+}
+
+nav #proSearch {
+  display: inline-block;
+  position: relative;
+}
+
+nav input {
+  background-color: rgba(0,0,0,0);
+  border: none;
+  padding: .5em;
+  width: 200px;
+  color: white;
+}
+
+nav span {
+  position: absolute;
+  background: url('imgs/Search.png') no-repeat;
+  background-size: cover;
+  height: 20px;
+  width: 20px;
+  right: 0;
+  top:0;
+}
+
+nav input:focus {
+  outline: none;
+}
+
+::-webkit-input-placeholder {
+   color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;
+}
+
+:-ms-input-placeholder {
+   color: white;
+}
+
+.right {
+  float: right;
+}
+
+.hero {
+  background-image: url("imgs/hero.jpg");
+  background-size: cover;
+  padding: 2em 0;
+
+}

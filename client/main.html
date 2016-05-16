@@ -1,35 +1,19 @@
 <head>
   <title>simple</title>
+    <link href='https://fonts.googleapis.com/css?family=Cabin:400,700|Cabin+Sketch:700|Source+Sans+Pro:700,400,300' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
-
-  <!--{{> hello}}-->
-  <!--{{> info}}-->
 </body>
 
-<template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
-</template>
 
-<template name="info">
-  <h2>Learn Meteor!</h2>
-  <ul>
-    <li><a href="https://www.meteor.com/try">Do the Tutorial</a></li>
-    <li><a href="http://guide.meteor.com">Follow the Guide</a></li>
-    <li><a href="https://docs.meteor.com">Read the Docs</a></li>
-    <li><a href="https://forums.meteor.com">Discussions</a></li>
-  </ul>
-</template>
 
 
 
 
 
 <template name="header">
-  <h1>This is the header</h1>
+  <h1 class="sketchHeader green">This is the header</h1>
 </template>
 
 <template name="postList">
@@ -42,4 +26,39 @@
 
 <template name="landing">
     <h3>The landing</h3>
+</template>
+
+<template name="nav">
+    <nav id="navbar">
+        <nav id="navHolder" class="mainWrapper">
+            <h1>ProEdify</h1>
+            <div class="right">
+                <div id="proSearch">
+                    <input placeholder="Search Free Video Library" type="search">
+                    <span class="proSearcIcon"></span>
+                    <div id="proSearchWhite"></div>
+                </div>
+                <button class="greenbtn navButton">Sign Uo</button>
+                <button class="navButton">Login</button>
+            </div>
+        </nav>
+    </nav>
+</template>
+
+<template name="hero">
+    <section class="hero">
+        <div class="mainWrapper">
+            <div style="display: inline-block; width: 50%; text-align: center; padding: 2em;" class="left">
+                <h1>Sign Up Today</h1>
+                <p>
+                    Take a practice test, get your results, generate customized study guide, and get improved results.
+                </p>
+                <button class="button">Start Now</button>
+            </div>
+            <div style="display: inline-block; width: 50%; text-align: center; padding: 2em;" class="right">
+                <h1>Learn More</h1>
+
+            </div>
+        </div>
+    </section>
 </template>
