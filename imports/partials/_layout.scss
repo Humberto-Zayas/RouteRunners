@@ -30,23 +30,23 @@ nav #proSearch {
   position: relative;
 }
 
-nav input {
-  background-color: rgba(0,0,0,0);
-  border: none;
-  padding: .5em;
-  width: 200px;
-  color: white;
-}
-
-nav span {
-  position: absolute;
-  background: url('imgs/Search.png') no-repeat;
-  background-size: cover;
-  height: 20px;
-  width: 20px;
-  right: 0;
-  top:0;
-}
+//nav input {
+//  background-color: rgba(0,0,0,0);
+//  border: none;
+//  padding: .5em;
+//  width: 200px;
+//  color: white;
+//}
+//
+//nav span {
+//  position: absolute;
+//  background: url('imgs/Search.png') no-repeat;
+//  background-size: cover;
+//  height: 20px;
+//  width: 20px;
+//  right: 0;
+//  top:0;
+//}
 
 nav input:focus {
   outline: none;
